@@ -1,13 +1,13 @@
 body {
 	text-align: center;
 	background-color: red;
+	padding-top: 5%;
+	text-align: center
 }
 
 .form {
 	width: 25%;
-	float: right;
-	margin-right: 5%;
-}
+	margin-left: 36%;
 
 .my_table {
 	float: left;
@@ -25,4 +25,8 @@ body {
 
 .space1 {
 	clear: both;
+}
+
+.non {
+	text-decoration: none;
 }

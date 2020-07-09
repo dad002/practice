@@ -38,7 +38,7 @@ function addClass(teacherID, calssNumber) {
 }
 
 async function login(Login, Password) {
-	await db.all ('SELECT Login, Password FROM Teacher WHERE Login = (?) and Password = (?)', [Login, Password], (err, row) => {
+	r = await db.all ('SELECT Login, Password FROM Teacher WHERE Login = (?) and Password = (?)', [Login, Password], (err, row) => {
 		if (err) {
 			console.log(err.message);
 			console.log('zagsdd');
@@ -53,6 +53,7 @@ async function login(Login, Password) {
 		return 1;
 
 	});
+	return r
 }
 
 //get()
