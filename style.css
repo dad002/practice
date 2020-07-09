@@ -1,0 +1,28 @@
+body {
+	text-align: center;
+	background-color: red;
+}
+
+.form {
+	width: 25%;
+	float: right;
+	margin-right: 5%;
+}
+
+.my_table {
+	float: left;
+	width: 50%;
+	margin-left: 5%;
+}
+
+.form-group {
+	text-align: end;
+}
+
+.mr-l {
+	margin-left: 83%;
+}
+
+.space1 {
+	clear: both;
+}
