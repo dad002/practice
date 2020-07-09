@@ -16,19 +16,19 @@ const server = http.createServer((req, res) => {
 	switch (req.url) {
 		case '/':
 			res.writeHead(200, { 'Content-Type': 'text/html' }); // plain - в случае обычного текста
-			res.end(html)
+			res.end(html);
 
 		case '/style.css':
 			res.writeHead(200, { 'Content-Type': 'text/css' }); // plain - в случае обычного текста
-			res.end(css)
+			res.end(css);
 
 		case '/action.js':
 			res.writeHead(200, { 'Content-Type': 'text/javascript' }); // plain - в случае обычного текста
-			res.end(js)
+			res.end(js);
 
 		default:
 			res.writeHead(200, { 'Content-Type': 'text/plain' });
-			res.end("Error404: NOT FOUND")
+			res.end("Error404: NOT FOUND");
 	}
 
 }).listen(8080, () => console.log('Сервер запущен'))

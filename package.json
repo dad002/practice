@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start1": "node database.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dad002/practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dad002/practice/issues"
+  },
+  "homepage": "https://github.com/dad002/practice#readme",
+  "dependencies": {
+    "sqlite3": "^5.0.0",
+    "sqlite3-promise": "^1.0.3"
+  }
+}
